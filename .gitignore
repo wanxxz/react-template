@@ -1,0 +1,16 @@
+/*
+
+!.gitignore
+
+!public
+!src
+
+!.editorconfig
+!.huskyrc
+!.lintstagedrc
+!.prettierrc
+
+!package.json
+!webpack.config.js
+!README.md
+!tsconfig.json
