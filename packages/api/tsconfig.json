@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "lib": ["esnext", "webworker"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "esnext"
+  },
+  "extends": "../../tsconfig.json",
+  "files": ["./src/types.d.ts", "./.nitro/types/nitro.d.ts"],
+  "include": ["./src/**/*"],
+  "paths": {
+    "#imports": ["./.nitro/types/nitro-imports"]
+  }
+}

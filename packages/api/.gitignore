@@ -1,0 +1,10 @@
+/*
+
+!.gitignore
+
+!src
+
+!README.md
+!nitro.config.ts
+!package.json
+!tsconfig.json

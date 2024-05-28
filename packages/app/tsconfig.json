@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "esnext"
+  },
+  "extends": "../../tsconfig.json",
+  "files": ["./src/types.d.ts"],
+  "include": ["./src/**/*"]
+}
